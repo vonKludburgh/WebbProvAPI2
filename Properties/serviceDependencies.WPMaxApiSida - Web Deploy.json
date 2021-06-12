@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/wpmaxserver/databases/ModelsWPDBMAX",
+      "type": "mssql.azure",
+      "connectionId": "MaxPageContext",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/wpmaxserver/databases/ModelsWPDBMAX",
+      "type": "mssql.azure",
+      "connectionId": "WebbProvAPI2Context",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

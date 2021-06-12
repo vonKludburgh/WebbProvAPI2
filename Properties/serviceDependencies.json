@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "MaxPageContext"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "WebbProvAPI2Context"
+    },
+    "apis1": {
+      "type": "apis"
+    }
+  }
+}
