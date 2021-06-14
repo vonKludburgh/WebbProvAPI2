@@ -20,8 +20,6 @@ namespace WebbProvAPI.Models
         public string BgColor { get; set; }
         public string BorderColor { get; set; }
         public string BorderType { get; set; }
-        //public byte[] ImgDataBack { get; set; }
-        //public bool ImgBool { get; set; }
         public string ImgWidth { get; set; }
         public string LinkType { get; set; }
     }
